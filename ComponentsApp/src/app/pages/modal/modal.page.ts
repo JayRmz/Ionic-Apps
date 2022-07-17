@@ -30,11 +30,9 @@ export class ModalPage implements OnInit {
     await modal.present();
 
     // let {data} = await modal.onDidDismiss();
-    // console.log('OnDidDismiss');
+
 
     let {data} = await modal.onWillDismiss();
-    console.log('onWillDismiss');
-    console.log(data);
 
 
   }

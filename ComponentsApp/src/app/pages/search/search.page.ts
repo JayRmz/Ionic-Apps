@@ -20,7 +20,6 @@ export class SearchPage implements OnInit {
   }
 
   searchChanged(ev) {
-    console.log(ev);
     this.searchText = ev.detail.value;
   }
 

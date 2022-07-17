@@ -29,25 +29,21 @@ export class ActionSheetPage implements OnInit {
         icon: 'trash-outline',
         cssClass: 'red',
         handler: () => {
-          console.log('Delete clicked');
         }
       }, {
         text: 'Share',
         icon: 'share-outline',
         handler: () => {
-          console.log('Share clicked');
         }
       }, {
         text: 'Play (open modal)',
         icon: 'caret-forward-circle-outline',
         handler: () => {
-          console.log('Play clicked');
         }
       }, {
         text: 'Favorite',
         icon: 'heart-outline',
         handler: () => {
-          console.log('Favorite clicked');
         }
       }, {
         text: 'Cancel',

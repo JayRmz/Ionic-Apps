@@ -20,9 +20,7 @@ export class InputPage implements OnInit {
   }
 
   onSubmit(formulario: NgForm) {
-    console.log('submit');
-    console.log(this.usuario);
-    console.log(formulario);
+
   }
 
 }

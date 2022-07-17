@@ -18,8 +18,7 @@ export class SegmentPage implements OnInit {
   }
 
   segmentChanged(ev){
-    console.log(ev);
-    if(ev.detail.value == 'all') {
+    if (ev.detail.value == 'all') {
       this.filterBy = '';
       return;
     }
